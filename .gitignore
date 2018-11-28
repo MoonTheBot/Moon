@@ -1,0 +1,55 @@
+# Dependencies
+package-lock.json
+yarn.lock
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug-log*
+yarn-error-log*
+config.json
+data/
+test.js
+
+# Runtime Data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage Data
+lib-cov
+Coverage
+.nyc_output
+.grunt
+
+# Bower
+bower_components
+.lock-wscript
+
+# Compiled Binaries
+build/Release
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# TypeScript
+typings/
+
+# NPM Cache
+.npm
+.eslintcache
+
+# REPL History
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+# Environmental
+.env
+
+# Lavalink
+deltas/
+nodes/
