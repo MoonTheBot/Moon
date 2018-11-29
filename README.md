@@ -47,3 +47,6 @@ exports.help = {
     usage: "test"
 };
 ```
+
+# License
+This project is placed under the MIT license.
