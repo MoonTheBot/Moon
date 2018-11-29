@@ -1,4 +1,4 @@
-module.exports = (client) => {
+module.exports = async (client) => {
 
     client.permlevel = message => {
       let permlvl = 0;
