@@ -5,6 +5,7 @@ Moon is a multipurpose Discord bot with more than general common features.
 - Node [Version 8.0.0 or higher](https://node.js.org)
 - Git command line ([Windows](https://git-scm.com/download/win) | [Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) | [MacOS](https://git-scm.com/download/mac)) installed
 - Windows build tools, this is required for the database being used but also for a lot of other dependencies the bot and framwork use.
+- Python [Any version above 2.7](https://python.org)
 
 # Downloading
 In command prompt, in location of choice, run the following command:
@@ -69,7 +70,7 @@ print(session) # This will return the str representation of the session which co
 session.logout() # This is in no way necessary unless you wish to login with a different key later on
 ```
 
-## Retrieving metrics
+## Retrieving metrics:
 ```py
 from mapi import Client
 import json # Not needed it just looks better with this
@@ -80,7 +81,7 @@ print(json.dumps(session.metrics(), indent=4, sort_keys=True))
 session.logout()
 ```
 
-## Showing str representation
+## Showing str representation:
 ```py
 from mapi import Client
 
