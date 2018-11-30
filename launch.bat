@@ -1,4 +1,4 @@
 @echo off
 title Launching Moon
-node index.js
+node shardReady.ts
 pause
