@@ -1,8 +1,8 @@
 {
     "name": "moon",
-    "version": "1.0.2",
+    "version": "1.1.1",
     "description": "Moon is a multipurpose Discord bot with more than general common features.",
-    "main": "shardReady.js"
+    "main": "shardReady.js",
     "scripts": {
       "test": "node shardReady.js",
       "start": "node shardReady.js"
