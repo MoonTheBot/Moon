@@ -5,7 +5,7 @@ Moon is a multipurpose Discord bot with more than general common features.
 - Node [Version 8.0.0 or higher](https://node.js.org)
 - Git command line ([Windows](https://git-scm.com/download/win) | [Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) | [MacOS](https://git-scm.com/download/mac)) installed
 - Windows build tools, this is required for the database being used but also for a lot of other dependencies the bot and framwork use.
-- Python [Any version above 2.7](https://python.org)
+- Python [Any version above 2.7](https://python.org) installed
 
 # Downloading
 In command prompt, in location of choice, run the following command:
