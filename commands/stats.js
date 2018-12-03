@@ -27,7 +27,7 @@ exports.run = async (client, message, args, level, error) => {
     .addField("CPU Usage", `${percent.toFixed(2)}%`, true)
     .addField("Mem Usage", `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`, true)
     .addField("OS", `${os.platform().toProperCase()}`, true)
-    .addField("CPUs", `${os.cpus()}`, true)
+    .addField("CPUs", `1`, true)
     .addField("Commands", `${client.commands.length}`, true)
     .addField("Aliases", `${client.aliases.length}`, true)
     .addField("Messages Seen", `${client.channels.map(c => c.messages.size).reduce((c1, c2) => c1 + c2)}`, true)
@@ -40,7 +40,6 @@ exports.run = async (client, message, args, level, error) => {
     - Removed needless code
     - Removed major and minor bugs
     \`\`\``)
-    .setThumbnail("https://cdn.discordapp.com/attachments/516437244190654464/517516882820071435/ubuntu.png")
     .setColor("#111111")
     return message.channel.send({embed});
 
