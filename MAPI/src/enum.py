@@ -20,3 +20,5 @@ class Enumerator():
             "16": "Strong"
         }
         return values[self._value]
+
+    # Add more handlers.
