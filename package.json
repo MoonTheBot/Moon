@@ -9,8 +9,8 @@
     },
     "dependencies": {
         "cpu-stat": "^2.0.1",
-        "express": "^4.16.4",
-        "discord.js": "^11.4.2",
+        "express": "^4.16.3",
+        "discord.js": "^11.4.1",
         "lavalink": "^2.3.0",
         "moment": "^2.22.2",
         "moment-duration-format": "^2.2.2",
