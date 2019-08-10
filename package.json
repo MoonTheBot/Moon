@@ -23,7 +23,7 @@
         "ms": "^2.1.1",
         "python-shell": "^1.0.6",
         "os": "^0.1.1",
-        "opusscript": "^0.0.6",
+        "opusscript": "^0.0.7",
         "node-opus": "^0.3.1",
         "opus-encode": "^2.0.2",
         "enmap": "^4.4.1",
