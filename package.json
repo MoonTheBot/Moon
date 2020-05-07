@@ -21,7 +21,7 @@
         "axios": "^0.18.0",
         "mocha": "^5.2.0",
         "ms": "^2.1.1",
-        "python-shell": "^1.0.6",
+        "python-shell": "^2.0.0",
         "os": "^0.1.1",
         "opusscript": "^0.0.6",
         "node-opus": "^0.3.1",
