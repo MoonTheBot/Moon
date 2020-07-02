@@ -35,7 +35,7 @@
         "body-parser": "^1.18.3",
         "level-session-store": "^2.1.0",
         "inquirer": "^6.2.0",
-        "marked": "^0.5.2",
+        "marked": "^0.8.0",
         "express-session": "^1.15.6",
         "express-passport": "^0.1.0",
         "passport-discord": "^0.1.3",
